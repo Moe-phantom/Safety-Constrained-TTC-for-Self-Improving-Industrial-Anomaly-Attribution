@@ -56,7 +56,7 @@ That all three classifiers fail in the same direction and on the same class indi
 
 The kurtosis distribution shift below shows the feature-level signature of this failure:
 
-![Kurtosis distribution shift](figures/feature_shift_kurtosis.png)
+![Kurtosis distribution shift](feature_shift_kurtosis.png)
 
 *Inner Race kurtosis shifts from a tight mode near 2 at training severity to a broad distribution centred near 4 at test severity. The classical decision boundary, calibrated to training-severity geometry, simply does not extend to the test-severity distribution for IR.*
 
