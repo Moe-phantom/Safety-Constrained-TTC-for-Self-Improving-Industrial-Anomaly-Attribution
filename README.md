@@ -50,7 +50,7 @@ Our benchmark trains classifiers on 0.007-inch (incipient) faults and tests on 0
 
 That all three classifiers fail in the same direction and on the same class indicates that the failure is a property of the feature distribution rather than of any particular classifier choice.
 
-![Baseline confusion matrices](figures/baseline_comparison_v5.png)
+![Baseline confusion matrices](/baseline_comparison_v5.png)
 
 *All baselines collapse on Inner Race at 0.021-inch severity. The IR→OR misrouting pattern is shared across SVM, Random Forest, and KNN.*
 
