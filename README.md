@@ -66,7 +66,7 @@ The kurtosis distribution shift below shows the feature-level signature of this 
 
 The framework is a four-stage inference pipeline:
 
-![Framework block diagram](figures/block_diagram.png)
+![Framework block diagram](block_diagram.png)
 
 1. **Feature Extraction:** 1024-sample windows → 20-dim feature vector (8 time-domain + 4 raw-spectrum + 8 envelope-spectrum band amplitudes) using Smith & Randall Method 1.
 2. **Classical Prior:** Random Forest classifier trained on 0.007-inch features.
