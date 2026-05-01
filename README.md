@@ -56,7 +56,7 @@ That all three classifiers fail in the same direction and on the same class indi
 
 The kurtosis distribution shift below shows the feature-level signature of this failure:
 
-![Kurtosis distribution shift]<img src="/figures/block_diagram.png" alt="Framework block diagram" style="width:50%;">
+![Kurtosis distribution shift](/figures/feature_distibution_shift)
 
 *Inner Race kurtosis shifts from a tight mode near 2 at training severity to a broad distribution centred near 4 at test severity. The classical decision boundary, calibrated to training-severity geometry, simply does not extend to the test-severity distribution for IR.*
 
@@ -66,7 +66,7 @@ The kurtosis distribution shift below shows the feature-level signature of this 
 
 The framework is a four-stage inference pipeline:
 
-![Framework block diagram](/figures/block_diagram.png)
+![Framework block diagram]<img src="/figures/block_diagram.png" alt="Framework block diagram" style="width:50%;">
 
 1. **Feature Extraction:** 1024-sample windows → 20-dim feature vector (8 time-domain + 4 raw-spectrum + 8 envelope-spectrum band amplitudes) using Smith & Randall Method 1.
 2. **Classical Prior:** Random Forest classifier trained on 0.007-inch features.
