@@ -50,13 +50,13 @@ Our benchmark trains classifiers on 0.007-inch (incipient) faults and tests on 0
 
 That all three classifiers fail in the same direction and on the same class indicates that the failure is a property of the feature distribution rather than of any particular classifier choice.
 
-![Baseline confusion matrices](/baseline_comparison_v5.png)
+![Baseline confusion matrices](/figures/baseline_comparison_v5.png)
 
 *All baselines collapse on Inner Race at 0.021-inch severity. The IR→OR misrouting pattern is shared across SVM, Random Forest, and KNN.*
 
 The kurtosis distribution shift below shows the feature-level signature of this failure:
 
-![Kurtosis distribution shift](feature_distribution_shift.png)
+![Kurtosis distribution shift](/figures/feature_distribution_shift.png)
 
 *Inner Race kurtosis shifts from a tight mode near 2 at training severity to a broad distribution centred near 4 at test severity. The classical decision boundary, calibrated to training-severity geometry, simply does not extend to the test-severity distribution for IR.*
 
