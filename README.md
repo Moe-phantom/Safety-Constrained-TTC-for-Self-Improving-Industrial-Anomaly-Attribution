@@ -455,8 +455,6 @@ The paper PDF is available in `paper/main.pdf` and the editable Overleaf source 
 
 The authorship team would like to acknowledge the vision, support and guidance of the IEEE Industrial Electronics Society in conducting the Generative AI Hackathon under the leadership of Daswin De Silva and Lakshitha Gunasekara.
 
-Mentor: Amali (Universiti Teknologi Malaysia).
-
 ---
 
 ## License
